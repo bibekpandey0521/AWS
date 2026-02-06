@@ -1,0 +1,19 @@
+cd bibekpandey
+cd ..
+cd ~
+[bibek@ip-172-31-5-240 ~]$ pwd
+/home/bibek
+echo "Welcome" > .a.txt
+echo "Welocome" > .b.txt
+ls -ltra
+echo "Welcome" > a.txt
+cat /etc/passwd
+cat -n /etc/passwd
+
+head -20 /etc/passwd
+
+cp /etc/passwd users.txt
+cat -n users.txt
+
+cp users.txt users01.txt
+mv users.txt users02.txt
