@@ -1,0 +1,70 @@
+1. ls -ltr
+2. ls -ltra
+3. cat a.py
+4. mkdir bibekpandey
+5. ls -ltr
+6. cd bibekpandey
+7. ls -ltr
+8. pwd
+9. cd ~
+10. cd ..  // go one directory lower
+11. cd ..  /home
+11. cd /tmp
+12. cd ~ 
+13. pwd 
+14. cd bibekpandey
+15. echo "Welcome" > .a.txt // hidden files because .dot is coming first
+16. echo "Welcome" > b.txt
+17. lst -ltr
+18. lst -ltra 
+19. mkdir  .xyz
+20. ls -ltr
+21. ls -artl
+22. rm b.txt
+23. ls -ltra
+24. cat /etc/passwd
+25. cat -n /etc/passwd // gives line number also
+26. head -20 /etc/passwd
+27. tail -20 /etc/passwd
+28. cp /etc/passwd users.list
+29. pwd
+30. cp /etc/passswd users.txt
+31. pwd
+32. ls -ltr
+33. cat -n users.txt
+34. cp users.txt users01.txt
+35. ls -ltr
+36. mv users.txt users02.txt
+37. ls -ltr
+38. pwd 
+39. cd /tmp
+40. cd /home/Pradeep
+41. sh createuser.sh Ranjit
+42. exit
+43. clear
+44. ls -ltr
+45. cat users01.txt >(redirection operator) users02.txt
+46. ls -ltr
+47. cat -n users01.txt
+48. cat -n users02.txt
+49. cat users01.txt >> users02.txt // dont  override append it 
+50. cat -n users02.txt
+51. more users02.txt
+52. clear
+53. grep "pradeep" users02.txt // search Pradeep from users02.txt
+54. grep "Pradeep" users02.txt
+55. grep -i "Pradeep" users02.txt // ignore the case
+56. grep -v "pradeep" users02.txt // show the line which doesnot have Pradeep
+57. grep -w "pradeep" users02.txt 
+58. more users02.txt 
+59. clear 
+60. cut -d":" -fl users01.txt
+61. cut -d":" -fl,5 users02.txt |head -10
+62. cut -d":" -fl,6 users01.txt |head -5
+63. cut -d":" -f1,6 users01.txt |tail -5
+64. cut -d":" -f1,6 users01.txt |tail -5 | cat -n
+65. cut -d":" -fl-4 users01.txt |tail -5 | cat -n
+66. cut -d":" -f1,2,4 users01.txt | tail -5 | cat -n
+67. cut -d":" -f1,2,4 users01.txt | tail -5 | cat -n > test.txt
+68. awk -F ":" '{print $1,$2}' users01.txt | tail -10
+69. awk -F ":" '{print $1,$6,$2} users02.txt' | tail -10

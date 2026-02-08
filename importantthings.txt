@@ -1,0 +1,17 @@
+Day 1 Introduction-and-Linux. 
+Day 2,3,4,5 Linux-Administration-and-Shell-Scripting.
+Day 6,7,8 Git 
+Day 9,10,11,12,13 AWS-EC2-ASG-ELB-VPC-S3-SQS-SNS.
+Day 14,15,16 Terraform
+Day 17,18,19,20 Docker
+Day 20,21,22,23,24,25 Kubernetes
+Day 26,27,28,29 Jenkins
+Day 30,31,32 Jenkins-Git-Docker-Setup
+Day 33,34,35 Jenkins-Pipeline-to-Deploy-Terraform-for-Docker-and-Kubernetes-in-AWS
+Day 36 Docker Image-Creation-and-Push-to-Docker-Hub-from-Jenkins
+Day 37,38 Deploy-Kubernetes-Deployment-from-Jenkins-for-the-application.
+Day 39,40,41,42 Ansible-AWX.
+Day 43,44,45,46 Grafana-and-Prometheus-to-monitor-Servers-Centreon.
+Day 47,48,49 Python-Programming-(OOP-File-Handling-(Patient-DMS))
+Day 50,51,52 Project-Management-and-Documentation.
+Day 53-180 Project-Work

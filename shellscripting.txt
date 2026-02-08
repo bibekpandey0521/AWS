@@ -1,0 +1,81 @@
+1.echo "Tell me your name:"
+  read nnn
+  Test
+  echo $nnnn
+
+2.vi p2.sh
+3.#!/bin/bash (shebang)
+echo "Enter your name:"
+read name
+
+4. sh p2.sh
+Enter your name: Bibek
+
+5. echo -n "Enter your name:"
+read name
+echo -n "Enter your mail:"
+read email
+echo -n "Enter your age:"
+read age
+
+echo "$name:$age:$email"
+echo "$name:$email:$age" >> pat.dat
+
+#!/bin/bash
+echo -n  "Enter your name:"
+read name
+echo -n "Enter your mail: "
+read email
+echo -n  "Enter your age: "
+read age
+echo "$name:$email:$age"
+echo "$name:$email:$age" >> pat.dat
+
+6.sh p2.sh
+
+[bibek@ip-172-31-5-240 ~]$ sh p2.sh
+Enter your name:
+bibek
+[bibek@ip-172-31-5-240 ~]$ vi p2.sh
+[bibek@ip-172-31-5-240 ~]$ sh p2.sh
+Enter your name:bibek
+Enter your mail:
+Enter your age: 23
+bibek::23
+[bibek@ip-172-31-5-240 ~]$ sh p2.sh
+Enter your name:bibek
+Enter your mail: bibek23@gmail.com
+Enter your age: 25
+bibek:bibek23@gmail.com:25
+[bibek@ip-172-31-5-240 ~]$ ls -ltr
+total 32
+drwxr-xr-x. 2 bibek stdgrp    6 Feb  6 09:45 bibekpandey
+-rw-r--r--. 1 bibek stdgrp 2593 Feb  6 10:02 users02.txt
+-rw-r--r--. 1 bibek stdgrp 2593 Feb  6 10:07 users01.txt
+-rw-r--r--. 1 bibek stdgrp   13 Feb  8 08:57 a.py
+-rw-r--r--. 1 bibek stdgrp   52 Feb  8 09:02 error.txt
+-rw-r--r--. 1 bibek stdgrp  108 Feb  8 09:08 msg.txt
+-rw-r--r--. 1 bibek stdgrp   43 Feb  8 09:17 p1.sh
+-rw-r--r--. 1 bibek stdgrp  187 Feb  8 09:40 p2.sh
+-rw-r--r--. 1 bibek stdgrp   37 Feb  8 09:41 pat.dat
+[bibek@ip-172-31-5-240 ~]$ cat pat.dat
+bibek::23
+bibek:bibek23@gmail.com:25
+
+
+#!/bin/bash
+echo -n  "Enter your name:"
+read name
+ls -ltr /temp/mmmmm
+echo "$?"
+echo -n "Enter your mail: "
+read email
+echo -n  "Enter your age: "
+read age
+echo "$name:$email:$age"
+echo "$name:$email:$age" >> pat.data
+
+
+
+
+
