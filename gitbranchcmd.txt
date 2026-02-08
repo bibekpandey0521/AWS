@@ -1,0 +1,18 @@
+git checkout -b feature-branch
+git status
+git add .
+git commit -m "Your commit message"
+git push -u origin feature-branch
+git checkout main
+git pull origin main
+git merge feature-branch
+
+	If there are conflicts, resolve them, then:	
+	git add .
+	git commit
+
+git push origin main
+
+git branch -d feature-branch
+
+
