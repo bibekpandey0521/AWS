@@ -1,0 +1,40 @@
+[vagrant@Graphite ~]$ history
+    1  sudo -i
+    2  vagrant ssh
+    3  exit
+    4  sudo -i
+    5  cat /etc/os-release
+    6  clear
+    7  yum install httpd wget vim unzip -y
+    8  sudo yum install httpd wget vim unzip -y
+    9  start httpd
+   10  sudo systemctl start httpd
+   11  sudo systemctl enable httpd
+   12  ip addr show
+   13  cd /var/www/html/
+   14  ls
+   15  vim index.html
+   16  sudo vim var/www/html/index.html
+   17  clefsdafhsjceacr
+   18  lealelac   /var/wwtl
+   44  sudo cp -r * /var/www/html/
+   45  ls /var/www/html/
+   46  sudo systemclt1 restart httpd
+   47  sudo systemclt restart httpd
+   48  sudo systemctl restart httpd
+   49  cd
+   50  clear
+   51  sudo systemctl status httpd
+   52  sudo systemctl status
+   53  cleclclear
+   54  sudo systemctl firewalld
+   55  sudo systemctl stop firewalld
+   56  suod systemctl disable firewalld
+   57  sudo systemctldisable firewalld
+   58  sudo systemctl disable firewalld
+   59  clear
+   60  sudo systemctl httpd
+   61  sudo systemctl status httpd
+   62  ip addr  show
+   63  clear
+   64  history
