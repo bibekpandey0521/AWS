@@ -1,0 +1,127 @@
+1. vi if01.sh
+2. #!/bin/bash (sebang)
+3. read -p "Enter your age:" age // read prompt before accepting
+
+4. if [ ${age} -ge 25 ] ; then 
+
+   echo "You are professional"
+   elif 
+
+esc + i + 2 
+Capital Y  + P
+
+#!/bin/bash
+read -p "Enter your age: " age
+
+if [ ${age} -ge 25 ]; then
+echo "Your are professional"
+elif [ ${age} -ge 25 ]; then
+echo "Your are professional"
+else
+echo "Your are in school"
+fi
+
+for i in a b c d
+do
+   echo "Hello, $i"
+done 
+
+for((i=1;i<=5;i++))
+do
+   echo "i is $i"
+done
+
+count = 1 
+while [$count -le 3]
+do
+   echo "Count is $count"
+   count = $((count + 1 ))	
+done
+
+
+
+#!/bin/bash
+
+for i in e f apple
+do
+age=""
+#clear
+read -p "Enter your age: " age
+if [ ${age} -ge 25 ]; then
+echo "Your are professional"
+elif [ ${age} -ge 25 ]; then
+echo "Your are professional"
+else
+echo "Your are in school"
+fi
+echo "$i"
+done
+
+
+
+
+[bibek@ip-172-31-5-240 ~]$ vi if01.sh
+[bibek@ip-172-31-5-240 ~]$ sh if01.sh
+Enter your age: 23
+Your are in school
+[bibek@ip-172-31-5-240 ~]$ vi if01.sh
+[bibek@ip-172-31-5-240 ~]$ vi if01.sh
+[bibek@ip-172-31-5-240 ~]$ sh if01.sh
+Enter your age: 34
+Your are professional
+e
+Enter your age: 12
+Your are in school
+f
+Enter your age: 14
+Your are in school
+apple
+
+
+
+
+
+#!/bin/bash
+i=""
+while [ $i -le 3 ];
+
+for i in e f apple
+do
+#clear
+age=""
+read -p "Enter your age: " age
+if [ ${age} -ge 25 ]; then
+echo "Your are professional"
+elif [ ${age} -ge 25 ]; then
+echo "Your are professional"
+else
+echo "Your are in school"
+fi
+echo "$i"
+i=$((i + 1))
+done
+
+
+
+#!/bin/bash
+i=1
+while [ $i -le 3 ];
+do
+#clear
+age=""
+read -p "Enter your age: " age
+
+if [ ${age} -ge 25 ]; then
+echo "Your are professional"
+elif [ ${age} -ge 25 ]; then
+echo "Your are professional"
+else
+echo "Your are in school"
+fi
+echo "$i"
+i=$((i + 1))
+done
+
+
+
+

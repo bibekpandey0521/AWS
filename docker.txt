@@ -1,0 +1,67 @@
+FROM node:22-alpine AS Build
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 5173
+
+CMD["npm","run","dev"]
+
+
+
+docker build -t vite-test folder/Docker
+
+docker build -t vite-test .
+docker build -t vite-test:2 . 
+docker run -p  5173:5173 vite-test
+docker run -p 5173:5173 vite-test:2 
+
+docker run<image>
+docker run -d <image>
+
+docker run --name mycontainer <image>
+
+docker run -p 8080:80 <image> // loading up volumes 
+
+docker run -v <image>
+docker run -v $(pwd):/app <image> // whatever happens after colon is container
+
+docker run -it <image> /bin/b // interactive way
+
+docker run -iot <image> sh
+
+docker ps 
+
+docker ps -a 
+
+docker logs <container>
+
+
+docker attach <container>
+
+docker stop <container>
+
+docker kill <container>
+
+docker <stop> $(docker ps -q)
+
+docker restart <container>
+
+docker start <container>
+
+docker rm <container>
+
+docker rm -f <container>
+
+
+docker <container> prune
+
+
+docker  run -p  4000:3000 -e PORT=3000 -rm express-app
+
+ docker  run -p  4000:3000 --env-file .env --rm express-app
